@@ -38,7 +38,10 @@ return {
                 -- "ts_ls", currently using a ts plugin
                 "html",
                 "cssls",
+                "gopls",
                 "tailwindcss",
+                "rust_analyzer",
+                "jdtls",
                 "gopls",
                 "emmet_ls",
                 "emmet_language_server",
@@ -54,6 +57,12 @@ return {
                 "prettier", -- prettier formatter
                 "stylua",   -- lua formatter
                 "isort",    -- python formatter
+                "rust_analyzer",
+                "jdtls",
+                "gopls",
+                "golangci-lint",
+                "delve",
+                "lua_ls",
                 "pylint",
                 "clangd",
                 "denols",
