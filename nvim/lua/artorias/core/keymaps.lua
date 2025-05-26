@@ -91,3 +91,5 @@ vim.keymap.set("n", "<leader>lx", function()
     })
 end, { desc = "Toggle LSP diagnostics" })
 
+vim.keymap.set("n", "<CR>", "m`o<Esc>k")
+vim.keymap.set("n", "<C-CR>", "m`O<Esc>`")
