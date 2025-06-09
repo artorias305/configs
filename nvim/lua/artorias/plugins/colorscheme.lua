@@ -270,4 +270,16 @@ return {
 			vim.g.sonokai_style = "andromeda"
 		end,
 	},
+	{
+        "jwbaldwin/oscura.nvim",
+        lazy = false,
+        config = function()
+            require("oscura").setup({
+                transparent_background = true,
+            })
+        end
+	},
+    {
+        "catppuccin/nvim"
+    }
 }
