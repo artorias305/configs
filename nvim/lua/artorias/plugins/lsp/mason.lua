@@ -54,7 +54,11 @@ return {
 
         mason_tool_installer.setup({
             ensure_installed = {
+                "deno",
                 "prettier", -- prettier formatter
+                "emmet-ls",
+                "emmet-language-server",
+                "tailwindcss-language-server",
                 "stylua",   -- lua formatter
                 "isort",    -- python formatter
                 "rust_analyzer",

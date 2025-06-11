@@ -44,11 +44,11 @@ return {
 				markdown = { "prettier" },
 				["markdown.mdx"] = { "prettier", "markdownlint-cli2", "markdown-toc" },
 			},
-			-- format_on_save = {
-			-- 	lsp_fallback = true,
-			-- 	async = false,
-			-- 	timeout_ms = 1000,
-			-- },
+			lsp_fallback = true,
+			format_on_save = {
+				async = false,
+				timeout_ms = 1000,
+			},
 		})
 
 		-- Configure individual formatters
